@@ -1,6 +1,9 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import HelloWorld from '@/components/HelloWorld';
+import Home from '@/components/Home'
+import Articles from '@/components/Articles'
+import ArticleDetail from '@/components/ArticleDetail'
+
 
 Vue.use(Router);
 
@@ -13,7 +16,7 @@ export default new Router({
       children: [
         {
           path: '',
-          component: ArticleDetail
+          component: Articles
         },
         {
           name: 'Details',
@@ -21,8 +24,7 @@ export default new Router({
           component: ArticleDetail,
           props: true
         }
-
       ]
-    },
-  ],
-});
+    }
+  ]
+})
