@@ -8,8 +8,21 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: HelloWorld,
+      name: 'Home',
+      component: Home,
+      children: [
+        {
+          path: '',
+          component: ArticleDetail
+        },
+        {
+          name: 'Details',
+          path: '/details/:id',
+          component: ArticleDetail,
+          props: true
+        }
+
+      ]
     },
   ],
 });
