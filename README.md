@@ -1,6 +1,6 @@
 # hacktivpress-rizqjoe
 
-Program apps hacktivpress-RizQjoe, sebuah blogging system sederhana dengan menggunakan framework Express JS, dan juga work database MongoDB, serta menggunakan struktur MVC
+Program apps hacktivpress-RizQjoe, sebuah blogging system sederhana dengan menggunakan framework Express JS, dan juga work database MongoDB, serta menggunakan struktur MVC, pada program ini folder server sebagai backend dan folder client sebagai frond end
 
 ## REST API
 
@@ -18,11 +18,12 @@ List of user routes:
 
 ##RUN API server
 
-cd server
+$ cd server
 
-npm install
+$ npm install
 
-npm start
+$ npm start
 
-for client side Read Readme in
-cd client
+For Client Side read README.md in
+$ cd client
+
