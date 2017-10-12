@@ -28,7 +28,7 @@ function login(req, res){
         let key = response.key
         let pass = helper.hash(req.body.password, key)
         
-        // kondisi jika password benar dan salah
+        // kondisi jika password dan user Name benar dan salah
         if(response.password == pass){
             let token = jwt.sign({
                 id: response._id,
