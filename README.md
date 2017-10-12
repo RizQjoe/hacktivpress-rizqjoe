@@ -24,6 +24,6 @@ $ npm install
 
 $ npm start
 
-For Client Side read README.md in
+For Client Side read README.md in 
 $ cd client
 
